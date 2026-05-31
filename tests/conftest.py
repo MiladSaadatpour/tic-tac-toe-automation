@@ -10,7 +10,7 @@ from pytest_html import extras as html_extras
 from pages.game_page import GamePage
 from pages.login_page import LoginPage
 
-_INDEX = Path(__file__).resolve().parent.parent.parent / "index.html"
+_INDEX = Path(__file__).resolve().parent.parent / "index.html"
 URL = os.environ.get("URL", _INDEX.as_uri())
 
 GUEST_NAME = "AutoTester"
